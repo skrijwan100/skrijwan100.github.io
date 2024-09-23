@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rijwan Pritfolio website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <nav class=" short navbar bg-dark navbar-expand-lg bg-body-tertiar" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="color: #fa5c0e;" href="#">More about me</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item" onclick="HOME()">
+                        <p class="nav-link s_color0" aria-current="page">Home</p>
+                    </li>
+                    <li class="nav-item s_color1" onclick="s_project()">
+                        <p class="nav-link">my project</p>
+                    </li>
+                    <li class="nav-item s_color2" onclick="s_skill()">
+                        <p class="nav-link">my skill</p>
+                    </li>
+                    <li class="nav-item s_color3" onclick="s_contact()">
+                        <p class="nav-link">contacme</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hide">
+        <div class="cantainar">
+            <img class="menu" src="All_pic/menu.png" alt="">
+            <div class="saidbar">
+                <img class="close" src="All_pic/close.png" alt="">
+                <div class="Manue">
+                    <ul>
+                        <li id="home">Home</li>
+                        <li id="project">My project</li>
+                        <li id="myskill">My skills</li>
+                        <li id="contactbtn">contact me
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main">
+                <div class="info">
+                    <h1>Hello i am <span id="name">sk Rijwan</span></h1>
+                    <h1>I am a <span id="skill"></span><span class="cursor">|</span> </h1>
+                    <div class="myinfo">Driven and passionate junior web developer with expertise in <br>
+                        <b>Languages</b>: HTML, CSS, JavaScript, Python,c <br>
+                        <b>Frameworks</b>: Flask,React, Bootstrap, Tailwind <br>
+                        <b>Tools</b>: GitHub, VS Code, MySQL <br>
+                        Eager to contribute to innovative projects and further hone my skills through an internship
+                        opportunity. With a strong portfolio of over 10 diverse projects, I bring a proactive approach
+                        to problem-solving and a keen eye for detail, ready to make an impactful contribution to your
+                        team.
+                    </div>
+                    <button id="about_me">More about me</button>
+                    <a href="All_pic/Resume.pdf" download="All_pic/Resume.pdf">
+                        <button id="cv">Download cv</button></a>
+                    <div class="parsonal">
+                        <a href="https://github.com/skrijwan100/" target="_blank"><lord-icon
+                                src="https://cdn.lordicon.com/uvqdhrsk.json" trigger="loop" delay="2000"
+                                colors="primary:#66ee78,secondary:#ffffff" class="parsonal_details">
+                            </lord-icon></a>
+                        <a href="https://www.linkedin.com/in/sekh-rijwan-026740311/" target="_blank"><lord-icon
+                                class="parsonal_details" colors="primary:#ffffff,secondary:#ffffff"
+                                src="https://cdn.lordicon.com/mdyiqybm.json" trigger="loop">
+                            </lord-icon> </a>
+                        <a href="https://www.instagram.com/skrijwan100/" target="_blank"> <lord-icon
+                                src="https://cdn.lordicon.com/ewswvzmw.json" trigger="loop" delay="2000"
+                                state="hover-rotate" colors="primary:#ffffff,secondary:#ffffff"
+                                class="parsonal_details">
+                            </lord-icon></a>
+                        <lord-icon src="https://cdn.lordicon.com/lhscugaw.json" trigger="loop" delay="2000"
+                            colors="primary:#ffffff,secondary:#ffffff" class="parsonal_details">
+                        </lord-icon>
+                        <a href="https://www.facebook.com/profile.php?id=61565863233942" target="_blank"
+                            rel="noopener noreferrer"><lord-icon src="https://cdn.lordicon.com/iqagrlso.json"
+                                trigger="loop" delay="2000" state="hover-roll"
+                                colors="primary:#ffffff,secondary:#ffffff" class="parsonal_details">
+                            </lord-icon></a>
+                    </div>
+                </div>
+
+                <div class="setheight">
+                    <div class="pic">
+                        <img id="mypic" src="All_pic/mypic.png" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <ol class="deccription">
+                    <li><span>1. Tic-Tac-Toe Game(HTML,CSS,javascript):</span> A interactive game built with HTML, CSS,
+                        and javascript,
+                        allowing users to play against the computer or a friend.
+                        <p>
+                        <h6>GITHUB code link:</h6><a href="https://github.com/skrijwan100/TIC-TAC-TOE-game"
+                            target="_blank"> https://github.com/skrijwan100/TIC-TAC-TOE-game</a> <br>
+                        <h6>depoly link:</h6> <a
+                            href="https://669aab2c9dd1e08803104a80--tic-tac-toe-by-rijwan.netlify.app#"
+                            target="_blank">"https://669aab2c9dd1e08803104a80--tic-tac-toe-by-rijwan.netlify.app#" </a>
+                        </p>
+                    </li>
+                    <li><span>2.Calculator((HTML,CSS,javascript)): </span> A complex functional calculator with good
+                        desing built by HTML, CSS,
+                        and javascript,
+                        performing
+                        arithmetic operations.
+                        <p>
+                        <h6>GITHUB code link:</h6><a href="https://github.com/skrijwan100/complex-calculator"
+                            target="_blank"> https://github.com/skrijwan100/complex-calculator</a> <br>
+                        <h6>depoly link:</h6> <a
+                            href="https://6689673f445f1d7d89a14981--calculatorv2-rijwan.netlify.app#"
+                            target="_blank">"https://6689673f445f1d7d89a14981--calculatorv2-rijwan.netlify.app#" </a>
+                        </p>
+                    <li><span>3. Chandrayaan-3:</span> An informative webpage built with HTML, CSS, and javascript,
+                        showcasing
+                        details about
+                        India's Chandrayaan-3 space mission.
+                        <h6>GITHUB code link:</h6><a href="https://github.com/skrijwan100/chandrayaan-3"
+                            target="_blank">https://github.com/skrijwan100/chandrayaan-3</a> <br>
+                    </li>
+                    </li>
+                    <li><span>4.TODO WEB APP (Python[Flask]):</span>Designed and developed a Flask-based Todo Web
+                        Application
+                        with HTML, CSS, and JS for seamless user interaction.
+                        <h6>GITHUB code link:</h6><a href="https://github.com/skrijwan100/Todo-web-app"
+                            target="_blank">https://github.com/skrijwan100/Todo-web-app</a><br>
+                    </li>
+                    <li><span>5.PASSWORD MANAGER WEB APP (Python[Flask]):</span>Built a Password manager Web App with
+                        Flask,
+                        HTML, CSS, and JS for efficient task organization and management.
+                        <h6>GITHUB code link:</h6><a href="https://github.com/skrijwan100/Password-manager"
+                            target="_blank">https://github.com/skrijwan100/Password-manager</a> <br>
+                    </li>
+                    <li><span>6. Music App(HTML,CSS,javascript): </span> A web-based music player built with HTML, CSS,
+                        and javascript,
+                        featuring a
+                        user-friendly
+                        interface and playlist management.
+                        <h6>GITHUB code link:</h6><a href="https://github.com/skrijwan100/Music-app-phone-"
+                            target="_blank">https://github.com/skrijwan100/Music-app-phone-</a> <br>
+                        <h6>depoly link:</h6> <a href="https://66989b88a2affa3a6a049a02--musicsappbyrijwan.netlify.app#"
+                            target="_blank">"https://66989b88a2affa3a6a049a02--musicsappbyrijwan.netlify.app#" </a>
+                    </li>
+                    <li><span>7. Alarm Clock(python[flask]): </span> A basic digital alarm clock built with Flask, HTML,
+                        CSS, and javascript,
+                        allowing
+                        users to set
+                        reminders and wake-up times. </li>
+                    <li><span>8. Dinosaur Game(HTML,CSS,javascript): </span> A fun browser game replica built with HTML,
+                        CSS, and javascript,
+                        where
+                        users control a
+                        dinosaur to avoid obstacles.
+                        <h6>GITHUB code link:</h6><a href="https://github.com/skrijwan100/Dino-game"
+                            target="_blank">https://github.com/skrijwan100/Dino-game</a> <br>
+                        <h6>depoly link:</h6> <a href="https://66b77b95ab6339423d3e0261--dainosorgame.netlify.app#"
+                            target="_blank">"https://66b77b95ab6339423d3e0261--dainosorgame.netlify.app#" </a>
+
+                    </li>
+                    <li><span>9.loginPortal: </span>LoginPortal is a user authentication web application built using
+                        Flask. This app provides a secure and straightforward registration and login system,
+                        <h6>GITHUB code link:</h6><a href="https://github.com/skrijwan100/LoginPortal"
+                            target="_blank">https://github.com/skrijwan100/LoginPortal</a> <br>
+                    </li>
+                    <li><span>10. Auto-Reply Chatbot (Python): </span> A simple chatbot built with Python, automatically
+                        responding to user
+                        queries and demonst rating backend development skills.</li>
+
+                </ol>
+
+            </div>
+            <div class="contacme">
+
+                <div class="contact-container">
+                    <h1 class="headcontac">Contact Me</h1>
+                    <div class="mycontac">
+                        <b>rijwansk329@gmail.com || 9635013952</b>
+                    </div>
+                    <form id="contact-form" name="submit-to-google-sheet">
+                        <label for="name" style="background-color: #211d21;">Name:</label>
+                        <input type="text" id="name" name="name" required style="background-color: #211d21;    font-family: 'Ubuntu';
+    color: white;">
+
+                        <label for="email" style="background-color: #211d21;">Email:</label>
+                        <input type="email" id="email" name="email" required
+                            style="background-color: #211d21;color: white;">
+
+                        <label for="message" style="background-color: #211d21;">Message:</label>
+                        <textarea id="message" name="message" rows="5" required
+                            style="background-color: #211d21;color: white;"></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="row1">
+                    <div class="box">
+                        <img src="All_pic/HTML5.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="All_pic/CSS3_logo.svg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="All_pic/JavaScript-logo.png" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="All_pic/react.svg" alt="">
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="box">
+                        <img src="All_pic/python.jpeg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="All_pic/flask.svg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="All_pic/mysql-logo.svg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="All_pic/Octicons-mark-github.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzTvhlroeMlzbXKcF-T2u75AqV2ZvnirqWTCCitB_WGxr1lpIXoKvVr0l_VlNyfjj-jmA/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response =>
+                document.getElementById("contact-form").addEventListener('submit', () => {
+                    Swal.fire({
+                        title: "Message sent successfully!",
+                        text: "You will reply back soon",
+                        icon: "success"
+                    });
+                    document.getElementById("contact-form").reset();
+
+                }))
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+
+</html>
